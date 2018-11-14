@@ -8,7 +8,7 @@ if [ -f /.dockerenv ] ; then
     npm version patch
 fi
 
-npm init -y google-vr-plugin
+# npm init -y google-vr-plugin
 npm publish
 
 echo "Done publishing google-vr-plugin"
