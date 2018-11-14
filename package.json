@@ -1,6 +1,6 @@
 {
   "name": "google-vr-plugin",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "cordova": {
     "id": "google-vr-plugin",
     "platforms": [
