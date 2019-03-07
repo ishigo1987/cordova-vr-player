@@ -10,7 +10,7 @@ if [ -f /.dockerenv ] ; then
 
     TO_REPLACE="0.0.0"
     # update plugin.xml with the same version number as the package.json file
-    sed -i.bak "s/${TO_REPLACE}/${PACKAGE_VERSION}/g" plugin.xml
+    sed -i.bak "s/${TO_REPLACE}/${PACKAGE_VERSION}/g" plugin.xml && rm plugin.xml.bak
 fi
 
 npm init -y -scope=alpha-health
