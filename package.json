@@ -1,8 +1,8 @@
 {
-  "name": "google-vr-plugin",
-  "version": "1.0.19",
+  "name": "@alpha-health/google-vr-plugin",
+  "version": "1.3.0",
   "cordova": {
-    "id": "google-vr-plugin",
+    "id": "@alpha-health/google-vr-plugin",
     "platforms": [
       "android",
       "ios"
