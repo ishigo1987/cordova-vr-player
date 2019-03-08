@@ -1,8 +1,8 @@
 {
-  "name": "@alpha-health/google-vr-plugin",
-  "version": "1.4.2",
+  "name": "google-vr-plugin",
+  "version": "1.5.0",
   "cordova": {
-    "id": "@alpha-health/google-vr-plugin",
+    "id": "google-vr-plugin",
     "platforms": [
       "android",
       "ios"
@@ -15,5 +15,19 @@
     "cordova-ios",
     "cordova-windows"
   ],
-  "description": "Display 360 images and videos from ionic apps"
+  "description": "Display 360 images and videos from ionic apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alpha-health/cordova-vr-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alpha-health/cordova-vr-player/issues"
+  },
+  "homepage": "https://github.com/Alpha-health/cordova-vr-player#readme"
 }

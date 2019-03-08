@@ -13,7 +13,7 @@ if [ -f /.dockerenv ] ; then
     sed -i.bak "s/${TO_REPLACE}/${PACKAGE_VERSION}/g" plugin.xml && rm plugin.xml.bak
 fi
 
-npm init -y -scope=alpha-health
+npm init -y
 npm publish
 
 echo "Done publishing google-vr-plugin"
