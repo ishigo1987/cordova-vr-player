@@ -18,7 +18,7 @@ apply plugin: 'com.android.application'
 repositories{    
   jcenter()
   flatDir {
-      dirs 'libs'
+      dirs 'src/main/libs', 'libs'
    }
 }
 
