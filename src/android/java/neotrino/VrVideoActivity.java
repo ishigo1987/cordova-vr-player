@@ -206,8 +206,11 @@ public class VrVideoActivity extends Activity {
     protected void onPostExecute(Boolean aBoolean) {
       try {
         Options options = new Options();
-        //options.inputType = Options.TYPE_MONO;
+        VrVideoView.Options options = new VrVideoView.Options();
+        options.inputType = VrVideoView.Options.TYPE_STEREO_OVER_UNDER;
         videoWidgetView.loadVideo(fileUri, options);
+//         Options options = new Options();
+        //options.inputType = Options.TYPE_MONO;
       } catch (IOException e) {
         // An error here is normally due to being unable to locate the file.
         loadVideoStatus = LOAD_VIDEO_STATUS_ERROR;
