@@ -205,7 +205,6 @@ public class VrVideoActivity extends Activity {
     @Override
     protected void onPostExecute(Boolean aBoolean) {
       try {
-        Options options = new Options();
         VrVideoView.Options options = new VrVideoView.Options();
         options.inputType = VrVideoView.Options.TYPE_STEREO_OVER_UNDER;
         videoWidgetView.loadVideo(fileUri, options);
